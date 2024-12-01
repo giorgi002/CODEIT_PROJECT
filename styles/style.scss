@@ -1,0 +1,58 @@
+@import "_reset.scss";
+@import "_variables.scss";
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#first{
+    background-color: rgb(3, 101, 81);
+    height: 100%;
+    width: 50%;
+    border-radius: 20px 0 0 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#text{
+    h1{
+        font-size: 70px;
+        color:$color ;
+        margin-bottom: 20px;
+    }
+    button{
+        margin-top: 30px;
+        background-color: rgb(208, 208, 0);
+        width: 180px;
+        height: 55px;
+        border-radius: 10px 10px;
+        color: black;
+        font-size: 30px;
+        font-weight: 800;
+        border: 0;
+        margin-left: -85px;
+    }
+    #fortexts{
+        font-size: 24px;
+        color: $color;
+        margin-top: -45px;
+        margin-left: 290px;
+    }
+    #fortexts span{
+        font-size: 35px;
+    }
+}
+#images{
+    width: 50%;
+    height: 100%;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+        border-radius: 0 20px 20px 0;
+
+    }
+}
